@@ -17,4 +17,4 @@ class C:
 num = int(input("Input a number."))
 i = C.CountZ(num)
 i = C.Tenz(i)
-print("The left number is:", int(num / i))
+print("The left number is:.", int(num / i))
