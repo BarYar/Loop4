@@ -14,7 +14,7 @@ class C:
         return i
 
 # main-מדפיס את הספרה השמאלית
-num = int(input("Input a number."))
+num = int(input("Input a number.."))
 i = C.CountZ(num)
 i = C.Tenz(i)
 print("The left number is:.", int(num / i))
