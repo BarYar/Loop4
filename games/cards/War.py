@@ -1,5 +1,6 @@
 from games.cards.CardGame import CardGame
 import random
+import time
 #פונקציה המוציא את הקלף הכי גדול
 #משחק מלחמה
 money = random.randint(5000, 10000)
@@ -14,25 +15,26 @@ for i in range(0,5):
     for j in range(0,4):
         cards.append(game.players[j].getCard())
         game.players[j].reduceAmount(100)
-    if(cards[0].__ge__(cards[1])):
+    if(cards[0]>(cards[1])):
         max1=0
     else:
         max1=1
-    if (cards[2].__ge__(cards[3])):
+    if (cards[2]>(cards[3])):
         max2 = 2
     else:
         max2 = 3
-    if(cards[max1].__ge__(cards[max2])):
+    if(cards[max1]>(cards[max2])):
         pass
     else:
         max1=max2
     game.players[max1].addAmount(roundmoney)
     print (f'The round winner is:{game.players[max1].name}.\nHe has {game.players[max1].money} ILS')
+    print(cards)
     roundomney=0
     round += 1
     cards.clear()
+    time.sleep(5)
 max=0
-maxplayer=0
 winners=[]
 for i in range (0,4):
     if(game.players[i].money>max):

@@ -4,22 +4,26 @@ from games.cards.Card import Card
 class DeckOfCards:
     #הקונסטרקטור של המחלקה
     def __init__(self):
-        self.__suits=["Club","Diamond","Heart","Spade"]
-        self.__values=[ "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King","Ace"]
+        self.suits=["♦","♠","♥","♣"]
+        self.values=["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K","A"]
         DeckOfCards.newGame(self)
     #מתודה המכניסה את הערכים לחבילה.
     def startCards(self):
-        for i in self.__values:
-            for j in self.__suits:
+        for i in self.values:
+            for j in self.suits:
                 card=Card(i,j)
                 self.deckcards.append(card)
     #מתדוה פרטית המערבבת את החפיסה
     def _shuffle(self):
-        random.shuffle(self.deckcards)
+        if(len(self.deckcards)!=52):
+            pass
+        else:
+            random.shuffle(self.deckcards)
     #מתודה המחזירה את הקלף מראש החפיסה
     def dealOne(self):
-        card=self.deckcards.pop()
-        return card
+        if(len(self.deckcards)>0):
+            card=self.deckcards.pop()
+            return card
     #מתודה המתחילה משחק חדש
     def newGame(self):
         self.deckcards=[]
