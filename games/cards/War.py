@@ -8,12 +8,15 @@ game=CardGame(money)
 round=1
 roundmoney=0
 cards=[]
+rcards={}
 max1=0
 max2=0
 for i in range(0,5):
     roundmoney=round*100*4
     for j in range(0,4):
-        cards.append(game.players[j].getCard())
+        card=game.players[j].getCard()
+        cards.append(card)
+        rcards[game.players[j].name]=card
         game.players[j].reduceAmount(100)
     if(cards[0]>(cards[1])):
         max1=0
@@ -29,7 +32,7 @@ for i in range(0,5):
         max1=max2
     game.players[max1].addAmount(roundmoney)
     print (f'The round winner is:{game.players[max1].name}.\nHe has {game.players[max1].money} ILS')
-    print(cards)
+    print(rcards)
     roundomney=0
     round += 1
     cards.clear()
@@ -41,7 +44,7 @@ for i in range (0,4):
         winners.clear()
         winners.append(game.players[i])
         max=game.players[i].money
-    if (game.players[i].money == max):
+    elif (game.players[i].money == max):
         winners.append(game.players[i])
 s=' is'
 if(len(winners)>1):

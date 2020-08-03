@@ -6,9 +6,16 @@ from games.cards.Player import Player
 class CardGame:
     #פונקציית הקונסטרקטור של המחלקה-מקבלת כפרמטר את כמות הקלפים שכל שחקן מקבל
     def __init__(self,money,cardsAmount=5):
-        self.cardsAmount=cardsAmount
+#יכולים להזין כמות קלפים גדולה מהחפסיסה כי זה תלוי במשחק.
+        if(cardsAmount>=0):
+            self.cardsAmount=cardsAmount
+        else:
+            raise ValueError("You've typed an invalid amount of cards.")
         self.deckCards=DeckOfCards()
-        CardGame.money(self,money)
+        if(money>=0):
+            CardGame.Money(self,money)
+        else:
+            raise ValueError("You've entered an invalid amount of money.")
         CardGame.playersPersonalInformation(self)
         CardGame.newGame(self)
     #מתודה המתחילה משחק חדש.
@@ -19,7 +26,7 @@ class CardGame:
             self.players[i].setHand(self.deckCards)
         CardGame.print(self)
     #מתודה הבודקת את תקינות הכסף שמקבלים
-    def money(self,money):
+    def Money(self,money):
         b = False
         while (b == False):
             try:
@@ -42,6 +49,8 @@ class CardGame:
                     namevalid=True
             player=Player(name,self.money)
             self.players.append(player)
+            namevalid=False
+            name=""
     #מתודת הדפסה של המשחק קלפים
     def print(self):
         for i in range (0,4):
