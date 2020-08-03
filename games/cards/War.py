@@ -31,7 +31,7 @@ for i in range(0,5):
     else:
         max1=max2
     game.players[max1].addAmount(roundmoney)
-    print (f'The round winner is:{game.players[max1].name}.\nHe has {game.players[max1].money} ILS')
+    print (f'The round winner is: {game.players[max1].name}.\nHe has {game.players[max1].money} ILS')
     print(rcards)
     print("                                                                                        \n----------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------\n                                                                                        ")
     roundomney=0
