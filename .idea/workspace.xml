@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8633eb59-ecbe-46c6-b1c2-dc3ad96f05da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/CardGame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/cards/War.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/War.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/test_CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/test_CardGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <recent name="C:\Users\user7\PycharmProjects\Loop4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_CardGame.TestCardGame.test_new_game3">
+  <component name="RunManager" selected="Python.War">
     <configuration name="Loop4Ex1" type="PythonConfigurationType" factoryName="Python">
       <module name="Loop4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.War" />
         <item itemvalue="Python tests.Unittests for test_CardGame.TestCardGame.test_new_game3" />
         <item itemvalue="Python tests.Unittests for test_CardGame.TestCardGame.test_new_game1" />
         <item itemvalue="Python tests.Unittests in test_CardGame.py" />
-        <item itemvalue="Python.War" />
         <item itemvalue="Python tests.Unittests for test_CardGame.TestCardGame.test_init1" />
       </list>
     </recent_temporary>
@@ -187,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594532687493</updated>
       <workItem from="1596003938077" duration="32246000" />
-      <workItem from="1596105786353" duration="47219000" />
+      <workItem from="1596105786353" duration="49146000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1594731019686</created>
@@ -231,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596377261254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="project1">
+      <created>1596443882296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596443882296</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,30 +250,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="project1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="87" key="CommitChangelistDialog2" timestamp="1596377260637">
+    <state x="585" y="87" key="CommitChangelistDialog2" timestamp="1596443881575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596377260637" />
+    <state x="585" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596443881575" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596003957626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596003957626" />
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1596442127109">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1596447811756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596442127109" />
-    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1596442127109">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596447811756" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1596447811756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596442127109" />
-    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1596442127108">
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596447811756" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1596447811756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596442127108" />
-    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1596442127109">
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596447811756" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1596447811756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596442127109" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596447811756" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1596438712186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -289,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596367194602" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596377249003">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596443889458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596377249003" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596443889458" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596088593258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -386,7 +391,7 @@
     <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_start_cards.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_start_cards Coverage Results" MODIFIED="1596357267254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$Unittests_in_test_Card_py.coverage" NAME="Unittests in test_Card.py Coverage Results" MODIFIED="1596361779316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$tr.coverage" NAME="tr Coverage Results" MODIFIED="1596371904893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_new_game3.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_new_game3 Coverage Results" MODIFIED="1596442127093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
+    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_new_game3.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_new_game3 Coverage Results" MODIFIED="1596444125459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_new_game1.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_new_game1 Coverage Results" MODIFIED="1596356441508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_get_card3.coverage" NAME="Unittests for test_Player.TestPlayer.test_get_card3 Coverage Results" MODIFIED="1596370307315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$Test.coverage" NAME="Test Coverage Results" MODIFIED="1596103144317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
@@ -395,7 +400,7 @@
     <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Card_TestCard.coverage" NAME="Unittests for test_Card.TestCard Coverage Results" MODIFIED="1596361475334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$TestExpect.coverage" NAME="TestExpect Coverage Results" MODIFIED="1596005988908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_get_card1.coverage" NAME="Unittests for test_Player.TestPlayer.test_get_card1 Coverage Results" MODIFIED="1596369323297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$War.coverage" NAME="War Coverage Results" MODIFIED="1596440707607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
+    <SUITE FILE_PATH="coverage/Loop4$War.coverage" NAME="War Coverage Results" MODIFIED="1596447811749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
     <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_testSuits.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.testSuits Coverage Results" MODIFIED="1596349306827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
   </component>
 </project>
