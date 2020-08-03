@@ -7,15 +7,21 @@ class CardGame:
     #פונקציית הקונסטרקטור של המחלקה-מקבלת כפרמטר את כמות הקלפים שכל שחקן מקבל
     def __init__(self,money,cardsAmount=5):
 #יכולים להזין כמות קלפים גדולה מהחפסיסה כי זה תלוי במשחק.
-        if(cardsAmount>=0):
-            self.cardsAmount=cardsAmount
+        if(type(cardsAmount)==int):
+            if(cardsAmount>=0):
+                self.cardsAmount=cardsAmount
+            else:
+                raise ValueError("You've typed an invalid amount of cards.")
         else:
-            raise ValueError("You've typed an invalid amount of cards.")
-        self.deckCards=DeckOfCards()
-        if(money>=0):
-            CardGame.Money(self,money)
+            raise ValueError("You've entered an invalid type for amount of cards.")
+        if(type(money)==int):
+            if(money>=0):
+                self.money=money
+            else:
+                raise ValueError("You've entered an invalid amount of money.")
         else:
-            raise ValueError("You've entered an invalid amount of money.")
+            raise ValueError("You've entered an invalid type for money.")
+        self.deckCards = DeckOfCards()
         CardGame.playersPersonalInformation(self)
         CardGame.newGame(self)
     #מתודה המתחילה משחק חדש.
@@ -25,16 +31,6 @@ class CardGame:
             self.players[i].cardamount=self.cardsAmount
             self.players[i].setHand(self.deckCards)
         CardGame.print(self)
-    #מתודה הבודקת את תקינות הכסף שמקבלים
-    def Money(self,money):
-        b = False
-        while (b == False):
-            try:
-                self.money = int(money)
-            except:
-                self.money = int(input("Type a valid amount."))
-            else:
-                b = True
     #מתדוה שמקבלת מהמשתמש את הפרטים האישיים של כל השחקנים.
     def playersPersonalInformation(self):
         self.players=[]

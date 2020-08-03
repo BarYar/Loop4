@@ -29,6 +29,23 @@ class TestCardGame(TestCase):
             pass
         else:
             self.fail()
+#מתודה שבודקת שהוא מעלה תקלה כאשר מזינים משהו שהוא לא int לכסף.
+    def test_inalid_money_type(self):
+        try:
+            card=CardGame("aa")
+        except:
+            pass
+        else:
+            self.fail()
+#מתודה שבודקת שהוא מעלה תקלה כאשר מזינים משהו שהוא לא int לכמות הקלפים.
+    def test_invalid_cardsamount_type(self):
+        try:
+            card = CardGame(5500,"aa")
+        except:
+            pass
+        else:
+            self.fail()
+
 #פונקציה הבודקת שהמשחק מאתחל את כמות הקלפים לכל השחקנים
     def test_new_game1(self):
         for i in range(0,len(self.game.players)):
