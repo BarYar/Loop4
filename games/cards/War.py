@@ -1,6 +1,7 @@
 from games.cards.CardGame import CardGame
 import random
 import time
+import tkinter
 #פונקציה המוציא את הקלף הכי גדול
 #משחק מלחמה
 money = random.randint(5000, 10000)

@@ -52,7 +52,7 @@ class TestDeckOfCards(TestCase):
             self.assertTrue(self.deck.deckcards[0]!=deck[0])
         except:
             self.assertTrue(self.deck.deckcards[4] != deck[4])
-    #מתודה שבודקת שזה לא עושה שאפל לפונקציה שקטנה מ21
+    #מתודה שבודקת שזה לא עושה שאפל לחפיסת קלפים לא מלאה
     def test_shuffle2(self):
         card1=Card(self.deck.deckcards[0].value,self.deck.deckcards[0].suit)
         card2=Card(self.deck.deckcards[4].value,self.deck.deckcards[4].suit)
