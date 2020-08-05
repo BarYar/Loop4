@@ -22,7 +22,7 @@ class Player:
             for i in range(0,self.cardamount):
                 self.cards.append(dcards.dealOne())
         else:
-            print(00)
+            raise ValueError("The Deck is too short")
     #מתודה המושכת קלף אקראי מהשחקן
     def getCard(self):
         if(len(self.cards)>0):

@@ -22,6 +22,14 @@ class TestCard(TestCase):
             pass
         else:
             self.fail()
+#מתדוה הבודקת כאשר הtype הוא סטרינג והוא לא ברשימה
+    def test_notinlist(self):
+        try:
+            card=Card("4","5")
+        except:
+            pass
+        else:
+            self.fail()
     #בודק ש__ge__ מחזיק true כאשר הערך יותר גדול
     def testge1(self):
         self.assertTrue(self.card>(self.other2))

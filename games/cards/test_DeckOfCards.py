@@ -65,9 +65,7 @@ class TestDeckOfCards(TestCase):
     #פונקציה שבודקת את dealone חפיסה לא ריקה
     def test_deal_one1(self):
         card1=self.deck.deckcards[51]
-        print(card1)
         card2=self.deck.dealOne()
-        print(card2)
         self.assertTrue(card1==card2)
     #מתודה שבודקת את dealone חפיסה ריקה
     def test_deal_one2(self):

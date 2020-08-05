@@ -34,13 +34,18 @@ class TestPlayer(TestCase):
     def test_set_Hand1(self):
         dcards=DeckOfCards()
         dcards.deckcards.clear()
-        print(dcards.deckcards)
         card=Card("4","♣")
         for i in range(0,4):
             dcards.deckcards.append(card)
         self.player.cards.clear()
-        self.player.setHand(dcards)
-        self.assertTrue(len(self.player.cards)==0)
+        try:
+            self.player.setHand(dcards)
+        except:
+            pass
+        else:
+            self.fail()
+
+
 #בודק שהפונקציה מעדכנת את הקלפים כאשר החפסית קלפים תקנית
     def test_set_Hand2(self):
         self.player.setHand(self.deck)
@@ -90,11 +95,18 @@ class TestPlayer(TestCase):
         money=self.player.money
         self.player.reduceAmount(100)
         self.assertTrue(money-100==self.player.money)
+#מתדוה הבודקת שהוא מעלה התראה כאשר הtype של הכסף לא int
+    def test_reduce_amount3(self):
+        try:
+            self.player.reduceAmount("100")
+        except:
+            pass
+        else:
+            self.fail()
 
 # מתודה הבודקת שהוא מעדכן את כמות הכסף כשהוא חוקי
     def test_add_amount1(self):
         money = self.player.money
-        print(type(money))
         self.player.addAmount(100)
         self.assertTrue(money + 100 == self.player.money)
 
@@ -102,6 +114,14 @@ class TestPlayer(TestCase):
     def test_add_amount2(self):
         try:
             self.player.addAmount(-100)
+        except:
+            pass
+        else:
+            self.fail()
+#מתדוה הבודקת שהוא מעלה התראה כאשר הtype של הכסף לא int
+    def test_add_amount3(self):
+        try:
+            self.player.addAmount("100")
         except:
             pass
         else:

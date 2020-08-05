@@ -53,5 +53,5 @@ class TestCardGame(TestCase):
 #פונקציה הבודקת שהמשחק מאתחל את את המשתנה cards amount לכל השחקנים
     def test_new_game2(self):
         for i in range(0,len(self.game.players)):
-            self.assertTrue(len(self.game.players[i].cardamount) == 6)
+            self.assertTrue(self.game.players[i].cardamount == 6)
 
