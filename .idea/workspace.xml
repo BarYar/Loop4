@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8633eb59-ecbe-46c6-b1c2-dc3ad96f05da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/games/cards/Wartk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Loop4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loop4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/test_Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/test_Card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/test_CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/test_CardGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/test_DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/test_DeckOfCards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cards/test_Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/cards/test_Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
@@ -63,7 +63,7 @@
       <recent name="C:\Users\user7\PycharmProjects\Loop4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_show">
+  <component name="RunManager" selected="Python.War">
     <configuration name="Loop4Ex1" type="PythonConfigurationType" factoryName="Python">
       <module name="Loop4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +78,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Loop4Ex1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="War" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Loop4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/games/cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/games/cards/War.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,6 +295,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aa" />
     <MESSAGE value="aaשש" />
@@ -282,6 +314,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="project1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="669" y="175" key="#War" timestamp="1596811030007">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="669" y="175" key="#War/0.0.1920.1160@0.0.1920.1160" timestamp="1596811030007" />
     <state x="585" y="87" key="CommitChangelistDialog2" timestamp="1596606379432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,22 +326,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596003957626" />
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1596607626420">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1596811233088">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1596607626420">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233088" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center" timestamp="1596811233088">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1596607626420">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233088" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left" timestamp="1596811233087">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1596607626420">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233087" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right" timestamp="1596811233088">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233088" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1596607302211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -390,60 +430,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_set_Hand2.coverage" NAME="Unittests for test_Player.TestPlayer.test_set_Hand2 Coverage Results" MODIFIED="1596607479093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_init2.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_init2 Coverage Results" MODIFIED="1596438835780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer.coverage" NAME="Unittests for test_Player.TestPlayer Coverage Results" MODIFIED="1596363664584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_add_card2.coverage" NAME="Unittests for test_Player.TestPlayer.test_add_card2 Coverage Results" MODIFIED="1596607497356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_testCallng.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.testCallng Coverage Results" MODIFIED="1596116868332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_shuffle2.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_shuffle2 Coverage Results" MODIFIED="1596607590206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Card_TestCard_testNonCardType.coverage" NAME="Unittests for test_Card.TestCard.testNonCardType Coverage Results" MODIFIED="1596373042042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_testinit2.coverage" NAME="Unittests for test_Player.TestPlayer.testinit2 Coverage Results" MODIFIED="1596607132470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_reduce_amount2.coverage" NAME="Unittests for test_Player.TestPlayer.test_reduce_amount2 Coverage Results" MODIFIED="1596607503658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_deal_one2.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one2 Coverage Results" MODIFIED="1596607607907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_deal_one.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one Coverage Results" MODIFIED="1596350198806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_get_card2.coverage" NAME="Unittests for test_Player.TestPlayer.test_get_card2 Coverage Results" MODIFIED="1596607486367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_show.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_show Coverage Results" MODIFIED="1596607626412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_in_cards.coverage" NAME="Unittests in cards Coverage Results" MODIFIED="1596607521033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$CardGame.coverage" NAME="CardGame Coverage Results" MODIFIED="1596437423540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_testCallnginit.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.testCallnginit Coverage Results" MODIFIED="1596607573272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Testt.coverage" NAME="Testt Coverage Results" MODIFIED="1596017602091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_inalid_money_type.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_inalid_money_type Coverage Results" MODIFIED="1596450533825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_new_game2.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_new_game2 Coverage Results" MODIFIED="1596526892365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_new_game1.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_new_game1 Coverage Results" MODIFIED="1596356441508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Test.coverage" NAME="Test Coverage Results" MODIFIED="1596103144317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_add_amount2.coverage" NAME="Unittests for test_Player.TestPlayer.test_add_amount2 Coverage Results" MODIFIED="1596377143804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_testinit3.coverage" NAME="Unittests for test_Player.TestPlayer.testinit3 Coverage Results" MODIFIED="1596607464900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_invalid_cardsamount_type.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_invalid_cardsamount_type Coverage Results" MODIFIED="1596450562008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Card_TestCard.coverage" NAME="Unittests for test_Card.TestCard Coverage Results" MODIFIED="1596361475334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_get_card1.coverage" NAME="Unittests for test_Player.TestPlayer.test_get_card1 Coverage Results" MODIFIED="1596607483529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$War.coverage" NAME="War Coverage Results" MODIFIED="1596533891641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_reduce_amount3.coverage" NAME="Unittests for test_Player.TestPlayer.test_reduce_amount3 Coverage Results" MODIFIED="1596607506364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_in_test_Player_py.coverage" NAME="Unittests in test_Player.py Coverage Results" MODIFIED="1596607455975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_deal_one3.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one3 Coverage Results" MODIFIED="1596607612020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_reduce_amounttil.coverage" NAME="Unittests for test_Player.TestPlayer.test_reduce_amounttil Coverage Results" MODIFIED="1596606745770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_in_test_CardGame_py.coverage" NAME="Unittests in test_CardGame.py Coverage Results" MODIFIED="1596531765040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$BonusAnd4e.coverage" NAME="BonusAnd4e Coverage Results" MODIFIED="1596094609133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test__shuffle.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test__shuffle Coverage Results" MODIFIED="1596358236360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_init1.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_init1 Coverage Results" MODIFIED="1596439121813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_set_Hand1.coverage" NAME="Unittests for test_Player.TestPlayer.test_set_Hand1 Coverage Results" MODIFIED="1596607475109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_add_card1.coverage" NAME="Unittests for test_Player.TestPlayer.test_add_card1 Coverage Results" MODIFIED="1596607493924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_new_game1.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_new_game1 Coverage Results" MODIFIED="1596441955651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_add_amount1.coverage" NAME="Unittests for test_Player.TestPlayer.test_add_amount1 Coverage Results" MODIFIED="1596607509555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_testinit1.coverage" NAME="Unittests for test_Player.TestPlayer.testinit1 Coverage Results" MODIFIED="1596607129146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_in_test_DeckOfCards_py.coverage" NAME="Unittests in test_DeckOfCards.py Coverage Results" MODIFIED="1596607618683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$BG__1_.coverage" NAME="BG (1) Coverage Results" MODIFIED="1596025906210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_shuffle1.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_shuffle1 Coverage Results" MODIFIED="1596607585516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$tr.coverage" NAME="tr Coverage Results" MODIFIED="1596371904893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_in_test_Card_py.coverage" NAME="Unittests in test_Card.py Coverage Results" MODIFIED="1596607079462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_start_cards.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_start_cards Coverage Results" MODIFIED="1596607581412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_new_game3.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_new_game3 Coverage Results" MODIFIED="1596444125459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_reduce_amount1.coverage" NAME="Unittests for test_Player.TestPlayer.test_reduce_amount1 Coverage Results" MODIFIED="1596607500567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_Player_TestPlayer_test_get_card3.coverage" NAME="Unittests for test_Player.TestPlayer.test_get_card3 Coverage Results" MODIFIED="1596607490690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_CardGame_TestCardGame_test_new_game2.coverage" NAME="Unittests for test_CardGame.TestCardGame.test_new_game2 Coverage Results" MODIFIED="1596606588767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$TestExpect.coverage" NAME="TestExpect Coverage Results" MODIFIED="1596005988908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_test_deal_one1.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one1 Coverage Results" MODIFIED="1596607605203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
-    <SUITE FILE_PATH="coverage/Loop4$Unittests_for_test_DeckOfCards_TestDeckOfCards_testSuits.coverage" NAME="Unittests for test_DeckOfCards.TestDeckOfCards.testSuits Coverage Results" MODIFIED="1596349306827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/games/cards" />
   </component>
 </project>
