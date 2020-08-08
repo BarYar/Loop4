@@ -4,8 +4,9 @@ import random
 #מחלקת שחקן-מכילה את השם, כמות כסף וקלפים
 class Player:
     #מתודת הקונסטרקטור של המחלקה player
-    def __init__(self,name,money,cardamount=5):
+    def __init__(self,name,money,mail,cardamount=5):
         self.name=name
+        self.mail=mail
         if(money>=5000):
             self.money=money
         else:

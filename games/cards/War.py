@@ -2,10 +2,28 @@ from games.cards.CardGame import CardGame
 import random
 import time
 import tkinter
+import smtplib, ssl
 #פונקציה המוציא את הקלף הכי גדול
 #משחק מלחמה
 money = random.randint(5000, 10000)
 game=CardGame(money)
+port = 465  # For SSL
+# Create a secure SSL context
+context = ssl.create_default_context()
+b=False
+with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
+    while not b:
+        try:
+            password = input("Type your password and press enter: ")
+            server.login("cardgame1j@gmail.com", password)
+        except:
+            print("Invalid Password.")
+        else:
+            b=True
+    sender_email = "cardgame1j@gmail@gmail.com"
+    message = "Hey"
+    for i in range(0,4):
+        server.sendmail(sender_email,game.players[i].mail,"Hey")
 round=1
 roundmoney=0
 cards=[]
