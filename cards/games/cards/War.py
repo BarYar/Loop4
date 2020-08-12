@@ -1,102 +1,1 @@
-from games.cards.CardGame import CardGame
-import random
-import time
-import tkinter as tk
-import smtplib, ssl
-#פונקציה המוציא את הקלף הכי גדול
-#משחק מלחמה
-money = random.randint(5000, 10000)
-game=CardGame(money)
-port = 465  # For SSL
-# Create a secure SSL context
-context = ssl.create_default_context()
-b=False
-#שולח מייל עם הקלפים לשחקנים.
-with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-    while not b:
-        try:
-            password = input("Type your password and press enter: ")
-            server.login("card.game1j@gmail.com", password)
-        except:
-            print("Invalid password.")
-        else:
-            b=True
-    sender_email = "card.game1j@gmail@gmail.com"
-    for i in range(0,4):
-        message=game.players[i].cards.__repr__().encode('utf-8')
-        #message=message,f'{message},{i},{str(c)}'
-        #message = f'Hey {game.players[i].name} your cards are: {c}'.encode('utf-8')
-        server.sendmail(sender_email,game.players[i].mail,message)
-        #@gmail.com
-round=1
-roundmoney=0
-cards=[]
-rcards={}
-max1=0
-max2=0
-#חלון המשחק
-window=tk.Tk()
-window.geometry("1000x1000")
-window.title("War Game")
-#window.iconbitmap(r'C:\Users\97252\PycharmProjects\Loop4\games\cards\game icons\Joker.ico')
-welcome = tk.Label(text="The War Game!", fg="green",height=8, width=15,font=(1,15))
-welcome.place(x=325,y=0)
-lframe= []
-lbutton=[]
-lplayerst=[]
-for i in range(0,1):
-    lframe.append(tk.Frame(window))
-    lplayerst.append(tk.Label(lframe[i],text=f'Name:{game.players[i].name} Money:{game.players[i].money} ',height=10,width=30,font=(1,15)))
-    lplayerst[i].place(x=325,y=i+1*175)
-    for j in range(0,5):
-        lbutton.append( tk.Button(lframe[i], text=str(j+1)))
-        lbutton[j].place(x=325,y=i+1*175)
-        lbutton[j].config(height=5, width=5)
-    lframe[i].grid(row=2, column=5)
-window.mainloop()
-for i in range(0,5):
-    roundmoney=round*100*4
-    for j in range(0,4):
-        card=game.players[j].getCard()
-        cards.append(card)
-        rcards[game.players[j].name]=card
-        game.players[j].reduceAmount(100)
-    if(cards[0]>(cards[1])):
-        max1=0
-    else:
-        max1=1
-    if (cards[2]>(cards[3])):
-        max2 = 2
-    else:
-        max2 = 3
-    if(cards[max1]>(cards[max2])):
-        pass
-    else:
-        max1=max2
-    game.players[max1].addAmount(roundmoney)
-    print (f'The round winner is: {game.players[max1].name}.\nHe has {game.players[max1].money} ILS')
-    print(rcards)
-    print("                                                                                        \n----------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------\n                                                                                        ")
-    roundomney=0
-    round += 1
-    cards.clear()
-    time.sleep(5)
-max=0
-winners=[]
-for i in range (0,4):
-    if(game.players[i].money>max):
-        winners.clear()
-        winners.append(game.players[i])
-        max=game.players[i].money
-    elif (game.players[i].money == max):
-        winners.append(game.players[i])
-s=' is'
-if(len(winners)>1):
-    s='s are'
-print(f'The winner{s}:',end='')
-for i in range(0,len(winners)):
-    print (f'Name:{winners[i].name}, Money:{winners[i].money} ILS.')
-
-
-
-
+from games.cards.CardGame import CardGameimport randomimport timeimport tkinter as tkfrom tkinter.ttk import *import smtplib, sslfrom tkinter import fontclass war:    def __init__(self):        self.countcards = 0  # כמות קלפים בround        self.discards = []  # כרטיסים שיצאו משימוש        self.rounds = 1  # כמות סיבובים        # פונקציה המוציא את הקלף הכי גדול        # משחק מלחמה        self.money = random.randint(5000, 10000)        self.game = CardGame(self.money)        self.cards = []        self.rcards = {}        self.max1 = 0        self.max2 = 0        port = 465  # For SSL        # Create a secure SSL context        context = ssl.create_default_context()        b = False        # שולח מייל עם הקלפים לשחקנים.        # with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:        #     while not b:        #         try:        #             password = input("Type your password and press enter: ")        #             server.login("card.game1j@gmail.com", password)        #         except:        #             print("Invalid password.")        #         else:        #             b=True        #     sender_email = "card.game1j@gmail@gmail.com"        #     for i in range(0,4):        #         message=game.players[i].cards.__repr__().encode('utf-8')        #         #message=message,f'{message},{i},{str(c)}'        #         #message = f'Hey {game.players[i].name} your cards are: {c}'.encode('utf-8')        #         server.sendmail(sender_email,game.players[i].mail,message)        #         #@gmail.com        self.newWindow()        self.newround()    def pmove(self,player,card):        self.discards.append([player,card])        if(self.countcards<5):            self.countcards += 1            self.game.players[player].money -= (100*self.rounds)            self.cards.append(self.game.players[player].cards[card])            for i in range(0,5):                self.lbutton[player][i].config(state=tk.DISABLED)        if (self.countcards == 4):            if(self.rounds<=5):                self.rounds+=1                roundmoney = self.rounds * 100 * 4                for i in range(0,4):                if (self.cards[0] > (self.cards[1])):                    self.max1 = 0                else:                    self.max1 = 1                if (self.cards[2] > (self.cards[3])):                    self.max2 = 2                else:                    self.max2 = 3                if (self.cards[self.max1] > (self.cards[self.max2])):                    pass                else:                    self.max1 = self.max2                self.game.players[self.max1].addAmount(roundmoney)                self.newround()    def newWindow(self):        #חלון המשחק        self.window=tk.Tk()        self.window.geometry("1000x1050")        self.background_image=tk.PhotoImage(file=r'C:\Users\user7\PycharmProjects\Loop4\games\cards\bgPic.png')        self.background_label = tk.Label(window, image=background_image)        self.background_label.place(x=0, y=0, relwidth=1, relheight=1)        self.window.title("War Game")        self.fonttitle = font.Font ( family="Helvetica",size=26,weight="bold" )        self.fontp=font.Font ( family="Times New Roman",size=15,weight="bold" )        self.window.iconbitmap(r'C:\Users\user7\PycharmProjects\Loop4\games\cards\joker.ico')        self.welcome = tk.Label(text="The War Game!", fg="black",bg="white",height=3, width=14,font=fonttitle)        self.welcome.place(x=350,y=0)        self.lframe= []        self.lbutton=[]        self.lplayerst=[]        self.cpic=tk.PhotoImage(file=r'C:\Users\user7\PycharmProjects\Loop4\games\cards\Cardpic.png')    #מתודה המתחילה round חדש    def newround(self):        for i in range(0,4):            self.lframe.append(tk.Frame(self.window))            self.lplayerst.append(tk.Label(self.lframe[i],text=f'Name:{self.game.players[i].name} Money:{self.game.players[i].money} ',height=3,width=24,font=self.fontp                                      ,fg="black",bg="white"))            self.lplayerst[i].pack(side='top')            self.lbutton.append([])            for j in range(0,5):                self.lbutton[i].append(tk.Button(self.lframe[i], image=self.cpic,command=lambda j=j,i=i: self.pmove(i,j)))                self.lbutton[i][j].pack(side='left')                self.lbutton[i][j].config(height=80, width=53)                if ([i,j] in self.discards):                    self.lbutton[i][j].config(state=tk.DISABLED)            self.lframe[i].place(x=350,y=(i*1.35+1)*150)        self.window.mainloop()    #מתודה אשר רצה בסוף המשחק    def endGame(self):        pass    for i in range(0,5):        roundmoney=round*100*4        for j in range(0,4):            card=game.players[j].getCard()            cards.append(card)            rcards[game.players[j].name]=card            game.players[j].reduceAmount(100)        if(cards[0]>(cards[1])):            max1=0        else:            max1=1        if (cards[2]>(cards[3])):            max2 = 2        else:            max2 = 3        if(cards[max1]>(cards[max2])):            pass        else:            max1=max2        game.players[max1].addAmount(roundmoney)        print (f'The round winner is: {game.players[max1].name}.\nHe has {game.players[max1].money} ILS')        print(rcards)        print("                                                                                        \n----------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------\n                                                                                        ")        roundomney=0        round += 1        cards.clear()        time.sleep(5)    max=0    winners=[]    for i in range (0,4):        if(game.players[i].money>max):            winners.clear()            winners.append(game.players[i])            max=game.players[i].money        elif (game.players[i].money == max):            winners.append(game.players[i])    s=' is'    if(len(winners)>1):        s='s are'    print(f'The winner{s}:',end='')    for i in range(0,len(winners)):        print (f'Name:{winners[i].name}, Money:{winners[i].money} ILS.')
