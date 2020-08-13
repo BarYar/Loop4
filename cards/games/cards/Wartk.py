@@ -1,5 +1,4 @@
 import tkinter as game
-window=game.Tk()
-welcome=game.Label(text="Welcome to the new game.")
-welcome.pack()
-window.mainloop()
+from games.cards.War import war
+war=war()
+#@gmail.com
