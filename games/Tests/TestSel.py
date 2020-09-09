@@ -65,15 +65,25 @@ class TestAOS(TestCase):
         self.driver.find_element_by_xpath("//div[@class='plus']").click()
         enteredProducts[productName] = 2
         self.driver.find_element_by_name("save_to_cart").click()
-        self.driver.implicitly_wait(3)
         #Adding the products in cart to the dictionary.
-        table=self.driver.find_element_by_xpath("//table[@ng-show='cart.productsInCart.length > 0']")
-        print(table.text)
-        item1=table.find_element_by_xpath("/tbody/tr/td[1]")
-        item2=table.find_element_by_xpath("/tbody/tr[1]/td[1]")
-        cartProducts[item1.find_elements_by_xpath("//h3[@class='ng-binding']").text]=item1.find_elements_by_xpath("//label[@class='ng-binding']").text
-        cartProducts[item2.find_elements_by_xpath("//h3[@class='ng-binding']").text] = item2.find_elements_by_xpath( "//label[@class='ng-binding']").text
-        print(cartProducts)
+        for i in range (1,3):
+            itemName=self.driver.find_element_by_xpath(f'//table/tbody/tr[{i}]//h3[@class="ng-binding"]').text
+            itemValue=self.driver.find_element_by_xpath(f'//table/tbody/tr[{i}]//label[@class="ng-binding"]').text
+            cartProducts[itemName]=int(itemValue.split()[1])
+        #Check if the items exists in the cart.
+        exist=False
+        count=0
+        for i in enteredProducts:
+            for j in cartProducts:
+                count+=1
+                if (j==i):
+                    self.assertTrue(enteredProducts[i]==cartProducts[j])
+                    exist=True
+                elif count==2:
+                    self.assertTrue(exist)
+                    count=0
+                    exist=False
+
 if __name__=="__main__":
     unittest.main()
 
