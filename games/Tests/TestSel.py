@@ -71,18 +71,10 @@ class TestAOS(TestCase):
             itemValue=self.driver.find_element_by_xpath(f'//table/tbody/tr[{i}]//label[@class="ng-binding"]').text
             cartProducts[itemName]=int(itemValue.split()[1])
         #Check if the items exists in the cart.
-        exist=False
-        count=0
         for i in enteredProducts:
-            for j in cartProducts:
-                count+=1
-                if (j==i):
-                    self.assertTrue(enteredProducts[i]==cartProducts[j])
-                    exist=True
-                elif count==2:
-                    self.assertTrue(exist)
-                    count=0
-                    exist=False
+            self.assertTrue(i in cartProducts)
+            self.assertTrue(enteredProducts[i]==cartProducts[i])
+
 
 if __name__=="__main__":
     unittest.main()
