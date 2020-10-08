@@ -3,12 +3,51 @@
   <component name="AnalysisUIOptions">
     <option name="CUSTOM_SCOPE_NAME" value="Module 'Loop4'" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8633eb59-ecbe-46c6-b1c2-dc3ad96f05da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/games/cards/Wartk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Loop4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loop4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8633eb59-ecbe-46c6-b1c2-dc3ad96f05da" name="Default Changelist" comment="project1">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_9_2020_08_59__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_9_2020_08_59__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/TestMail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/War.py" beforeDir="false" afterPath="$PROJECT_DIR$/cards/games/cards/War.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/Wartk.py" beforeDir="false" afterPath="$PROJECT_DIR$/cards/games/cards/Wartk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/test_Card.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/test_CardGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/test_DeckOfCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/games/cards/test_Player.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/Tests/TestSel.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/Tests/TestSel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/Card.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/CardGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/Cardpic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/DeckOfCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/Player.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/Playersinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/TestMail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/War.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/Wartk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/bgPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/joker.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/test_Card.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/test_CardGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/test_DeckOfCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cards/test_Player.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hangman" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
@@ -63,7 +102,7 @@
       <recent name="C:\Users\user7\PycharmProjects\Loop4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.War">
+  <component name="RunManager" selected="Python tests.Unittests in TestSel.py">
     <configuration name="Loop4Ex1" type="PythonConfigurationType" factoryName="Python">
       <module name="Loop4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,33 +146,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestSel.TestAOS.test1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Loop4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/games/cards" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/games/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_DeckOfCards.TestDeckOfCards.test_deal_one1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Loop4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/games/cards" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_DeckOfCards.TestDeckOfCards.test_deal_one2&quot;" />
+      <option name="_new_target" value="&quot;TestSel.TestAOS.test1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -167,6 +190,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in TestSel.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Loop4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/games/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/games/Tests/TestSel.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_DeckOfCards.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Loop4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in TestSel.py" />
+        <item itemvalue="Python tests.Unittests for TestSel.TestAOS.test1" />
         <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_show" />
         <item itemvalue="Python tests.Unittests in test_DeckOfCards.py" />
         <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one3" />
-        <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one2" />
-        <item itemvalue="Python tests.Unittests for test_DeckOfCards.TestDeckOfCards.test_deal_one1" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +326,19 @@
       <option name="project" value="LOCAL" />
       <updated>1596606380123</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎00013" summary="project1">
+      <created>1599677013712</created>
+      <option name="number" value="LOCAL‎00013" />
+      <option name="presentableId" value="LOCAL‎00013" />
+      <updated>1599677013712</updated>
+    </task>
+    <task id="LOCAL‎00014" summary="project1">
+      <created>1599677288677</created>
+      <option name="number" value="LOCAL‎00014" />
+      <option name="presentableId" value="LOCAL‎00014" />
+      <updated>1599677288677</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +354,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aa" />
@@ -322,30 +372,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596606379432" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596003957626">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="740" y="307" key="FileChooserDialogImpl" timestamp="1602151017596">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596003957626" />
-    <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1596811233088">
+    <state x="740" y="307" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1602151017596" />
+    <state width="1882" height="269" key="GridCell.Tab.0.bottom" timestamp="1599677418207">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1899" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233088" />
-    <state width="1899" height="321" key="GridCell.Tab.0.center" timestamp="1596811233088">
+    <state width="1882" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1599677418207" />
+    <state width="1882" height="269" key="GridCell.Tab.0.center" timestamp="1599677418207">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1899" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233088" />
-    <state width="1899" height="321" key="GridCell.Tab.0.left" timestamp="1596811233087">
+    <state width="1882" height="269" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1599677418207" />
+    <state width="1882" height="269" key="GridCell.Tab.0.left" timestamp="1599677418207">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1899" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233087" />
-    <state width="1899" height="321" key="GridCell.Tab.0.right" timestamp="1596811233088">
+    <state width="1882" height="269" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1599677418207" />
+    <state width="1882" height="269" key="GridCell.Tab.0.right" timestamp="1599677418207">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596607626420" />
-    <state width="1899" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1596811233088" />
+    <state width="1882" height="269" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1599677418207" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1596607302211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -362,14 +413,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596607302211" />
+    <state x="184" y="98" key="MergeDialog" timestamp="1600429549181">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="184" y="98" key="MergeDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1600429549181" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1596367194602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596367194602" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596606387818">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="282" key="Vcs.Push.Dialog.v2" timestamp="1599677301530">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596606387818" />
+    <state x="552" y="282" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1599677301530" />
+    <state x="769" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602150009465">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="769" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160@0.0.1920.1160" timestamp="1602150009465" />
+    <state x="700" y="368" key="git4idea.merge.GitPullDialog" timestamp="1600429589261">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="700" y="368" key="git4idea.merge.GitPullDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1600429589261" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596088593258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
